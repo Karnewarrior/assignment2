@@ -1,3 +1,7 @@
+Date of Gitlab Tutorials: 10/17/2021
+Date of Github Account creation: 10/17/2021
+
+
 
     1.Paste the console output you saved at the end of step 3.C (2 points)
 	C:/Users/[security ommission]/OneDrive/Documents/GitHub/assignment2>git status https://github.com/Karnewarrior/assignment2
@@ -26,3 +30,10 @@ nothing to commit, working tree clean
 	
     8.In the context of object-oriented programming (I) What is inheritance? (II) What is polymorphism? (III) What is encapsulation? (6 points)
 	inheritance is a class which is derived from and shares components with another class. Polymorphism is allowing a specific routine/function to use a different type of variable when required. Encapsulation is bundling data together, such as creating, moving, and accessing multiple variables/functions at once in the form of a class.
+
+	9.  What is the main difference between the “Dictator and Lieutenants” workflow and the “Integration manager” workflow? (5 points)
+	In the "Dictator and Lieutenants” workflow, there is only one repository that you're permitted to pull from, and only one person/entity is permitted to push to that repository.
+	In the "Integration manager" workflow, each developer handles their own public/private repositories, which are then pulled by a manager, integrated, and then pushed to the central repository.
+
+	10. How would a team of 100 developers benefit from following the “Dictator and Lieutenants” workflow instead of the “Centralized” workflow? (5 points)
+	Centralized workflow would be constantly shifting, making pulling and pushing updates to the shared repository difficult. The Dictator workflow prevents this by preventing individuals who are not the dictator from pushing. The lieutenants are free to focus on integrating, and developers no longer have to worry about an untimely push from a coworker rendering their work difficult to push or even obsolete.
