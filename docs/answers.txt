@@ -1,8 +1,28 @@
-1.Paste the console output you saved at the end of step 3.C (2 points)
-2.How many commits have been done to the repository (not only by you, but by anyone) so far? Write the git command you used to get this information (4 points)
-3.When was the README.md  file modified last? Write the git command you used to get this information (4 points)
-4.Mention two reasons why branches are used in a Git repository (4 points)
-5.What is the difference between git log and git status? (4 points)
-6.What command would you use to see the commits where “Vehicle.h” was one of the committed files? (4 points)
-7.What command would you use to see the commits whose commit message contains the word “file”? (4 points)
-8.In the context of object-oriented programming (I) What is inheritance? (II) What is polymorphism? (III) What is encapsulation? (6 points)
+
+    1.Paste the console output you saved at the end of step 3.C (2 points)
+	C:/Users/[security ommission]/OneDrive/Documents/GitHub/assignment2>git status https://github.com/Karnewarrior/assignment2
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+    2.How many commits have been done to the repository (not only by you, but by anyone) so far? Write the git command you used to get this information (4 points)
+	Seven commits thus far, only one by myself. I did not use a console command, I'm using the Github Desktop which has a tab for History.
+	
+    3.When was the README.md  file modified last? Write the git command you used to get this information (4 points)
+	Readme.md was last modified at 10:09 PM on 10/17/2021. This information was found in the history tab of Github Desktop
+	
+    4.Mention two reasons why branches are used in a Git repository (4 points)
+	Branches are used to lighten data loads by only moving required files. A branch is simply a pointer to a source repository. This is why merging a branch is not possible when the source repository has had a more recent commit.
+	
+    5.What is the difference between git log and git status? (4 points)
+	git log only shows the committed history, while git status includes modifications still uncommitted.
+	
+    6.What command would you use to see the commits where “Vehicle.h” was one of the committed files? (4 points)
+	git --follow <filename>
+	
+    7.What command would you use to see the commits whose commit message contains the word “file”? (4 points)
+	git log grep="file"
+	
+    8.In the context of object-oriented programming (I) What is inheritance? (II) What is polymorphism? (III) What is encapsulation? (6 points)
+	inheritance is a class which is derived from and shares components with another class. Polymorphism is allowing a specific routine/function to use a different type of variable when required. Encapsulation is bundling data together, such as creating, moving, and accessing multiple variables/functions at once in the form of a class.
